@@ -53,7 +53,7 @@ python models_data/DataAnalyze.py
 #    models_data/FinalProject (8).ipynb
 ```
 
-See [SETUP.md](SETUP.md) for full setup instructions including API credential configuration.
+See SETUP.md for full setup instructions including API credential configuration.
 
 ---
 
@@ -110,4 +110,4 @@ While we did see a profit in the test markets of ~$400, after 35 markets, the % 
 
 This project was completed individually.
 
-For a detailed breakdown of which functions were written, edited, or debugged with AI assistance, see [ATTRIBUTION.md](ATTRIBUTION.md).
+For a detailed breakdown of which functions were written, edited, or debugged with AI assistance, see ATTRIBUTION.md.
