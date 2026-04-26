@@ -64,6 +64,7 @@ https://drive.google.com/file/d/17-nkELp7PENR0TLnsPZc_msAcIOx0pdp/view?usp=shari
 
 **Technical Walkthrough:**
 https://drive.google.com/file/d/1FOsoHb5oA_MX3nSg86j8KBV8c6jWPSj-/view?usp=sharing
+
 ---
 
 ## Evaluation
@@ -99,6 +100,7 @@ RMSE is on a 0–1 scale (market prices are probabilities). LightGBM and XGBoost
 | Naive baseline — test | $930.11 | 8/27 profitable |
 
 While we did see a profit in the test markets of ~$400, after 35 markets, the % profitablility is clearly a red flag with my current LSTM model that I will continue to look into. In addition, the error visualizations in the LSTModel, shows high error near the edges (0, 100) showing possible lack of data/other possible issues near the fringes that make its predictions worse. This could mean I should use different models near the edges, or avoid them all together to improve predictions/profit.
+
 ---
 
 
