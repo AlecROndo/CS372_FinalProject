@@ -18,7 +18,7 @@ Polynomial Regression:
 This attempts to furhter improve upon Linear regression by capturing quadratic and nonlinear relations between the prediction and the features. This allows for more complex relationships between numerical features.
 
 XGBoost: 
-Next, I attempted to use XGBoost. After research, I determined that XGBoost was strong at finding nonlinear feature relations automatically without needing to directly establish them myself. This allows the model to find more complex relationships. It also has regularization built in, and is overall, very capable model when it comes to complex relationship such as options/contract pricing.
+Next, I attempted to use XGBoost. After research, I determined that XGBoost was strong at finding nonlinear feature relations automatically without needing to directly establish them myself. This allows the model to find more complex relationships. It also has regularization built in, and is overall, very capable model when it comes to complex relationship such as options/contract pricing. The reason that XGBOOST as well as LightGM are strong at finding nonlinear representations is because of its use of decision trees, which essentially create boundries in a feature space. This is unlike a tradittonal neural network.
 
 LightGBM:
 Lastly, I researched LightGBM, and found that it is essentially an improved version of XGBoost. It has speed, memory improvements, and often trains faster, and finds more accurate relationships between the two. The results did show that they had fundamentally very different scores and well within the margin of error/variance.
