@@ -103,8 +103,11 @@ While we did see a profit in the test markets of ~$400, after 35 markets, the % 
 
 ---
 
+## Project Relevance
+I looked into research paper's that address this very issue. Can/which ML models can actually be used to profit off statistical arbitrage?
+https://link.springer.com/article/10.1007/s10614-021-10169-8
 
-
+---
 
 ## Individual Contributions
 
